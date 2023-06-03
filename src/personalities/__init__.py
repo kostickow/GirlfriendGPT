@@ -1,5 +1,5 @@
 from enum import Enum
-
+from kisa import kisa
 from .alix_earle import alix_earle
 from .angele import angele
 from .jack_dawson import jack_dawson
@@ -14,6 +14,7 @@ __all__ = [
     "luna",
     "angele",
     "makima",
+    "kisa"
     "sandra",
     "alix_earle",
     "jack_dawson",
@@ -27,6 +28,7 @@ class Personality(str, Enum):
     LUNA = "luna"
     ANGELE = "angele"
     MAKIMA = "makima"
+    kisa = "kisa"
     SANDRA = "sandra"
     ALIX_EARLE = "alix_earle"
     JACK_DAWSON = "jack_dawson"
